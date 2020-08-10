@@ -1,12 +1,3 @@
-SOURCES = \
-	code.c \
-	r-lib/code2.c
-
-OBJECTS = $(SOURCES:.c=.o)
-
-all: $(SHLIB)
-
-.PHONY: clean
-
-clean:
-	rm -f $(OBJECTS)
+OBJECTS = \
+	code.o \
+	code3.o
